@@ -13,6 +13,5 @@ def dividers(n):
    return devider
 
 N = int(input("Введите число N: "))
-div = dividers(N)
 
-print(f"Простые множители числа {N} = {div}")
+print(f"Простые множители числа {N} = {dividers(N)}")
